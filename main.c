@@ -96,7 +96,7 @@ void enqueue(QueueNodePtr *headPtr, QueueNodePtr *tailPtr, int value){
 }
 
 int dequeue(QueueNodePtr *headPtr, QueueNodePtr *tailPtr){
-  if( n(*headPtr)){
+  if(isEmpty(*headPtr)){
     printf("queue is empty!");
   }
   else{
